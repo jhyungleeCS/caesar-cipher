@@ -50,3 +50,6 @@ shift = int(input("How many letters do you want to shift your message by?: "))
 
 ciphertext = encrypt(plaintext, shift) 
 print("Encrypted Message: ", ciphertext)
+
+ciphertext = decrypt(ciphertext, shift) 
+print("Decrypted Message: ", ciphertext)
